@@ -1,0 +1,39 @@
+.userProfile {
+  padding: 4px;
+}
+
+.userProfile-header {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 8px;
+  gap: 16px;
+  font-weight: 300;
+}
+
+.userProfile-userInfo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.userProfile-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.userProfile-footer {
+  display: flex;
+  font-weight: 300;
+  padding: 11px 6px;
+  gap: 10px;
+}
+
+.userProfile-follows-amount {
+  font-size: 1.3rem;
+  font-weight: 500;
+}

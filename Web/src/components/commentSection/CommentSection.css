@@ -1,0 +1,120 @@
+.commentsection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+
+.commentsection-header {
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  padding: 12px;
+}
+
+.commentsection-header-body {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.commentsection-header-body-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+.commentsection-header-body-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+
+.commentsection-interactions {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0px;
+  gap: 16px;
+}
+
+.commentsection-interactions-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 12.1px;
+  font-size: 10px;
+  font-weight: 400;
+  gap: 2px;
+}
+
+.commentsection-usersComments {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  padding: 12px;
+  gap: 16px;
+}
+
+.comentSection-usersComments-info {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.05px;
+  text-align: center;
+}
+
+.commentsection-usersComments-divider {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  overflow-y: auto;
+  height: 300px;
+}
+
+.commentsection-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  padding: 24px;
+  gap: 15px;
+}
+
+.commentsection-footer a {
+  color: var(--color-pink-medium);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.36px;
+}
+
+.commentsection-footer-textarea {
+  width: 100%;
+  height: 38px;
+  caret-color: var(--color-pink-medium);
+  background: var(--color-grey-light);
+  border-radius: 6px;
+  border: none;
+  padding: 10px;
+  outline-color: var(--color-grey-border);
+  outline-width: 1px;
+  resize: none;
+  overflow: hidden;
+}
+
+.commentsection-footer-textarea::placeholder {
+  color: var(--color-grey-dark);
+}
+
+.commentsection-footer-button {
+  width: 10%;
+  background-color: var(--color-white);
+  border: none;
+  padding: 10px;
+  color: var(--color-pink-medium);
+  text-align: center;
+}

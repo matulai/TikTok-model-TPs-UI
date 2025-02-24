@@ -1,0 +1,20 @@
+.login-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.login-container-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 652px;
+  width: 100%;
+  gap: 10px;
+  background-color: var(--color-grey-light);
+}
+
+@media (max-width: 360px) {
+  .login-container {
+    flex-direction: column-reverse;
+  }
+}

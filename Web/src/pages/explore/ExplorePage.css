@@ -1,0 +1,29 @@
+.explore-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+@media (max-width: 360px) {
+  .explore-container {
+    flex-direction: column-reverse;
+  }
+}
+
+.explore-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+}
+
+.tags-container {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.posts-tag-container {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}

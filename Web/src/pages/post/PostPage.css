@@ -1,0 +1,36 @@
+.page-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.page-container-content {
+  display: flex;
+  padding: 16px 32px;
+  width: 100%;
+}
+
+.page-container-content-body {
+  display: flex;
+  gap: 10px;
+}
+
+video {
+  max-width: 458px;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  padding: 4px;
+}
+
+@media (max-width: 744px) {
+  .page-container-content-body {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 360px) {
+  .commentsection-footer-textarea {
+    width: auto;
+  }
+}

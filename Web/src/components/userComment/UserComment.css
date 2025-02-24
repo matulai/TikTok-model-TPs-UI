@@ -1,0 +1,19 @@
+.userComment {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  border-bottom: 1px solid var(--color-grey-dark);
+}
+
+.userComment-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+.userComment-body {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}

@@ -1,0 +1,24 @@
+.profile-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+@media (max-width: 360px) {
+  .profile-container {
+    flex-direction: column-reverse;
+  }
+}
+
+.profile-content {
+  width: 100%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.profile-posts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}

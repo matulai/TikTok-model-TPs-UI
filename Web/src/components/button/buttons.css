@@ -1,0 +1,83 @@
+button {
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 21.78px;
+    font-weight: 700;
+}
+.button-rectangle {
+    min-height: 46px;
+    min-width: 100px;
+    border: solid 1px;
+    border-radius: 4px;
+    padding: 0px 8px;
+    gap: 10px;
+    /* para que los iconos esten centrados */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Los circle-button tienen dimensiones diferentes. Se los agregara en linea. */
+.button-circle {
+    height: 46px;
+    width: 46px;
+    border: none;
+    border-radius: 50%;
+    padding: 0px 8px;
+    gap: 10px;
+    /* para que los iconos esten centrados */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-primary {
+    color: var(--color-white);
+    background-color: var(--color-pink-medium);
+}
+
+.button-primary:hover {
+    background-color: var(--color-pink-dark);
+}
+
+.button-primary-outline {
+    color: var(--color-pink-medium);
+    background-color: var(--color-white);
+}
+
+.button-primary-outline:hover {
+    background-color: var(--color-pink-light);
+}
+
+.button-secondary {
+    background-color: var(--color-grey-light);
+    border: none;
+}
+
+.button-secondary:hover {
+    background-color: var(--color-grey-medium);
+}
+
+.button-secondary-active {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border: none;
+}
+
+.button-secondary-outline {
+    background-color: var(--color-white);
+    border-color: var(--color-grey-border);
+}
+
+.button-secondary-outline:hover {
+    background-color: var(--color-grey-light);
+}
+
+.button-actions {
+    background-color: var(--color-grey-medium);
+}
+
+.wh-36 {
+  width: 36px;
+  height: 36px;
+}

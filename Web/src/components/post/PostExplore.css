@@ -1,0 +1,52 @@
+.post-explore {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+}
+
+.post-explore-video {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.post-explore-header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.post-explore-info {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+
+.post-explore-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post-explore-user-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.post-explore-user-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.post-explore-like {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12.1px;
+  gap: 2px;
+}

@@ -1,0 +1,24 @@
+.search-container {
+    display: flex;
+    width: 500px;
+    height: 46px;
+    padding: 10px 16px;
+    background-color: var(--color-grey-light);
+    border-radius: 40px;
+    gap: 10px;
+}
+
+.search-icon-container:hover {
+    cursor: pointer;
+}
+
+.search-container-input {
+  display: flex;
+}
+
+@media (max-width: 744px) {
+    .search-container {
+        display: none;
+    }
+}
+
